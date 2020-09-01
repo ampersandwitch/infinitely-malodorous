@@ -8,7 +8,6 @@ height:100%;
 width: 800px;
 margin: 30px auto;
 margin-top: 200px;
-background-color: : #34113F;
 text-align:center;
 }
 
@@ -30,11 +29,7 @@ h2 {
   font-size:8em;
 }
 
-button{
-@include corners (5px);
-/* background:$base-color; */
-color:$white;
-border: solid 1px $white;
+button {
 text-decoration:none;
 cursor:pointer;
 font-size:1.2em;
@@ -42,22 +37,17 @@ padding:18px 10px;
 width:180px;
 margin: 10px;
  outline: none;
-  &:hover{
-	@include transition;
-	background:$white;
-	border: solid 1px $white;
-	color:$base-color;
 	}
 }
 
-#start {
-  background-color: #64dfdf;
+start {
+  background: #64dfdf;
 }
 
-#stop {
-  background-color: #5390d9;
+.stop {
+  background: #5390d9;
 }
 
-#reset {
-  background-color: #5e60ce;
+.reset {
+  background: #5e60ce;
 }
